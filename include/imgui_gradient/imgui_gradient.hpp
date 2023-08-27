@@ -1,4 +1,4 @@
 #pragma once
 
-#include "../src/GradientWidget.hpp"
-#include "../src/extra_widgets.hpp"
+#include "GradientWidget.hpp"
+#include "extra_widgets.hpp"

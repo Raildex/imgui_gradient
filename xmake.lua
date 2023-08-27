@@ -1,0 +1,11 @@
+add_requires("imgui")
+
+target("imgui_gradient")
+set_kind("static")
+set_version("0.1.0")
+add_includedirs("include/imgui_gradient")
+add_includedirs("include/imgui_gradient" , {public = true})
+add_headerfiles("include/imgui_gradient/*.hpp", {prefixdir = "imgui_gradient"})
+add_files("src/*.cpp")
+add_packages("imgui")
+target_end()
